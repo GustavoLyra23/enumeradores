@@ -41,7 +41,7 @@ public class Main {
             Integer duration = sc.nextInt();
             sc.nextLine();
             HourContract contract = new HourContract(data,value,duration);
-            worker.getContracts().add(contract);
+            worker.addContract(contract);
         }
         System.out.println("Enter month and year to calculate income (MM/yyyy)");
         Integer month = sc.nextInt();
